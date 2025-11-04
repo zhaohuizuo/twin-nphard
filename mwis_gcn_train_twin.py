@@ -15,7 +15,7 @@ import numpy as np
 import scipy.sparse as sp
 from multiprocessing import Queue
 from copy import deepcopy
-from scipy.stats.stats import pearsonr, linregress
+from scipy.stats import pearsonr, linregress
 
 import tensorflow as tf
 from collections import deque
